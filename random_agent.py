@@ -3,6 +3,10 @@ from gymnasium import spaces
 from pettingzoo.utils import BaseWrapper
 from pettingzoo.utils.env import AgentID, ObsType
 
+ENV_SETTINGS = {
+    "visual_observation": False  # Set to True if using visual observations
+}
+
 
 class CustomWrapper(BaseWrapper):
     """
